@@ -10,7 +10,6 @@ import de.jenshardt.springbootfeatures.fileaccess.FileAccessDemo;
 @SpringBootApplication
 public class SpringBootFeaturesApplication implements CommandLineRunner {
 
-	
 	@Autowired
 	FileAccessDemo fad;
 	
@@ -21,7 +20,5 @@ public class SpringBootFeaturesApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {		
 		fad.readFileContentFromClasspath(); 
-		
-	}
-	
+	}	
 }
